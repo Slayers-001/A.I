@@ -40,7 +40,7 @@ It's not just an assistant — it's an extension of your digital life.
 ## ⚡ Quick Start
 
 ```bash
-git clone https://github.com/Slayers-001/J.A.R.V.I.S..git
+git clone https://github.com/Slayers-001/A.I.git
 cd Mark-XXXIX
 pip install -r requirements.txt
 playwright install
