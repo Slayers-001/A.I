@@ -1,7 +1,6 @@
-# 🤖 MARK XXXIX (39)
-### The Ultimate Cross-Platform Personal AI Assistant — By FatihMakes
+# 🤖 Jarvis (39)
+### The Ultimate Cross-Platform Personal AI Assistant — By Utkarsh Pandey
 
-> 📺 **[Watch the full setup video on YouTube](https://youtu.be/ej1f5OE3SNQ?si=lCxDhJix9ungq1Ry)**
 
 A real-time voice AI that can hear, see, understand, and control your computer — on any OS. Supporting Windows, macOS, and Linux. Local execution. Zero subscriptions. Engineered for total autonomy.
 
@@ -41,7 +40,7 @@ It's not just an assistant — it's an extension of your digital life.
 ## ⚡ Quick Start
 
 ```bash
-git clone https://github.com/FatihMakes/Mark-XXXIX.git
+git clone https://github.com/Slayers-001/J.A.R.V.I.S..git
 cd Mark-XXXIX
 pip install -r requirements.txt
 playwright install
@@ -69,13 +68,3 @@ Personal and non-commercial use only.
 Licensed under **[Creative Commons BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)**.
 
 ---
-
-## 👤 Connect with the Creator
-
-Engineered by a developer building a real-world JARVIS-style assistant.
-⭐ **Star the repository to support the journey to Mark 100.**
-
-| Platform | Link |
-|---|---|
-| YouTube | [@FatihMakes](https://www.youtube.com/@FatihMakes) |
-| Instagram | [@fatihmakes](https://www.instagram.com/fatihmakes) |
