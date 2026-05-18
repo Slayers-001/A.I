@@ -205,8 +205,8 @@ TOOL_DECLARATIONS = [
         "parameters": {
             "type": "OBJECT",
             "properties": {
-                "action":      {"type": "STRING", "description": "go_to | search | click | type | scroll | fill_form | smart_click | smart_type | get_text | get_url | press | new_tab | close_tab | screenshot | back | forward | reload | switch | list_browsers | close | close_all"},
-                "browser":     {"type": "STRING", "description": "Target browser: chrome | edge | firefox | opera | operagx | brave | vivaldi | safari. Omit to use the currently active browser."},
+                "action":      {"type": "STRING", "description": "go_to | search | click | type | scroll | fill_form | smart_click | smart_type | get_text | get_url | press | new_tab | close_tab [...]
+                "browser":     {"type": "STRING", "description": "Target browser: chrome | edge | firefox | opera | operagx | brave | vivaldi | safari. Omit to use the currently active browser."}[...]
                 "url":         {"type": "STRING", "description": "URL for go_to / new_tab action"},
                 "query":       {"type": "STRING", "description": "Search query for search action"},
                 "engine":      {"type": "STRING", "description": "Search engine: google | bing | duckduckgo | yandex (default: google)"},
@@ -229,7 +229,7 @@ TOOL_DECLARATIONS = [
         "parameters": {
             "type": "OBJECT",
             "properties": {
-                "action":      {"type": "STRING", "description": "list | create_file | create_folder | delete | move | copy | rename | read | write | find | largest | disk_usage | organize_desktop | info"},
+                "action":      {"type": "STRING", "description": "list | create_file | create_folder | delete | move | copy | rename | read | write | find | largest | disk_usage | organize_deskto[...]
                 "path":        {"type": "STRING", "description": "File/folder path or shortcut: desktop, downloads, documents, home"},
                 "destination": {"type": "STRING", "description": "Destination path for move/copy"},
                 "new_name":    {"type": "STRING", "description": "New name for rename"},
@@ -310,7 +310,7 @@ TOOL_DECLARATIONS = [
         "parameters": {
             "type": "OBJECT",
             "properties": {
-                "action":      {"type": "STRING", "description": "type | smart_type | click | double_click | right_click | hotkey | press | scroll | move | copy | paste | screenshot | wait | clear_field | focus_window | screen_find | screen_click | random_data | user_data"},
+                "action":      {"type": "STRING", "description": "type | smart_type | click | double_click | right_click | hotkey | press | scroll | move | copy | paste | screenshot | wait | clea[...]
                 "text":        {"type": "STRING", "description": "Text to type or paste"},
                 "x":           {"type": "INTEGER", "description": "X coordinate"},
                 "y":           {"type": "INTEGER", "description": "Y coordinate"},
@@ -473,7 +473,7 @@ TOOL_DECLARATIONS = [
                     )
                 },
                 "key":   {"type": "STRING", "description": "Short snake_case key (e.g. name, favorite_food, sister_name)"},
-                "value": {"type": "STRING", "description": "Concise value in English (e.g. Fatih, pizza, older sister)"},
+                "value": {"type": "STRING", "description": "Concise value in English (e.g. Utkarsh Pandey, pizza, older sister)"},
             },
             "required": ["category", "key", "value"]
         }
